@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 16px;
+}
+
+.container > div > h3{
+    text-align: center;   
+    text-decoration: underline;
+}
+
+.intro{
+    background-color: rgb(17, 16, 16);
+    margin: -16px;
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+#profile-image{   
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+.about-me{
+    background-color: rgb(20, 20, 20);
+    margin: -16px;
+    padding: 16px;
+    color: rgb(199, 196, 196);
+}
+.social-links img{
+    width: 40px;
+    height: 40px;
+    margin: auto 16px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.qualification{
+    background-color: rgb(31, 30, 30);
+    margin: -16px;
+    padding: 16px;
+    color: rgb(198, 193, 193);
+}
+
+.hobbies{
+    background-color: rgb(35, 35, 35);
+    margin: -16px;
+    padding: 16px;
+    color: rgb(197, 197, 197);
+}
+
+.technologies{
+    background-color: rgb(47, 47, 47);
+    margin: -16px;
+    padding: 16px;
+    color: rgb(224, 216, 216);
+}
+
+table,
+tr,
+th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    font-size:1.2rem;
+}
+
+th,td{
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+}
+
+p{
+    font-size:1.5rem;
+    line-height: 2rem;
+}
+
+li{
+    font-size: 1.5rem;
+}
+
+.dynamic-text-color{
+    color: rgb(42, 88, 228);
+}
