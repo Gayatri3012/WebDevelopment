@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gayatri's Portfolio</title>
+</head>
+<body>
+    <section class="menu">
+        <button id="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li> <a href="#hobbies">Hobbies</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <header>
+        <nav class="default-nav">
+            <a href="#about-me">About me</a>
+            <a href="#qualification">Qualification</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#contact-me">Contact</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+    <main class="container">
+        <article class="intro">
+            <img id="profile-image"width="180px" height="180px" src="Profile.jpg" alt="Profile Photo">
+            <h1>Hi there! I'm Gayatri Takawale</h1>
+            <p>I am <span id="dynamic-text" class="dynamic-text-color"></span></p>
+            <p class="social-links">
+                <a href="https://www.linkedin.com/in/gayatri-takawale-96179b218?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCvxhvndgSV6264qlqkZ5gg%3D%3D" target="_blank">
+                    <img width="40" height="40"src="linkedin.png" alt="Linkedin icon">
+                
+                <a href="https://www.instagram.com/takawale_gayatri" target="_blank">
+                    <img width="40" height="40"src="https://cdn-icons-png.flaticon.com/128/1384/1384063.png" alt="Instagram icon">
+                </a>
+                
+                <a href="https://twitter.com/GayatriT3012?t=nVZVyhQ7bWuPllFbaq6Qjg&s=09" target="_blank">
+                    <img width="40" height="40"src="twitter.png" alt="twitter icon">
+                </a>
+            </p>
+        </article>
+        
+        <section id="about-me">
+            <h3>About me</h3>
+            <p>I'm a <strong>computer engineering student</strong>. Call me an engineer, 
+                programmer, geek, nerd, techie, or magician if you want. 
+                I love writing erroneous programs and can spend hours debugging 
+                them as well.<br> 
+                I am eager to utilise my innovative abilities and skills for the accomplishment of the projects.
+            </p>
+        </section>
+
+        <section id="qualification">
+            <h3>Qualifications</h3>
+            <p>
+                <ol>
+                    <li>BE Computer(Pursuing)</li>
+                    <li>12th(Science)</li>
+                </ol>
+            </p>
+        </section>    
+        
+        <section id="hobbies">
+            <h3>Hobbies</h3>
+            <p>
+                <ul>
+                    <li>Drawing</li>
+                    <li>Listening to music</li>
+                    <li>Reading</li>
+                </ul>
+            </p>
+        </section>
+        
+        <section id="technologies">
+            <h3>Technologies</h3>
+            <p>
+                <table>
+                    <tr>
+                        <th>Languages</th>
+                        <th>Front-end</th>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>HTML</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>CSS</td>
+                    </tr>
+                </table>
+            </p>
+        </section>                
+    </main>
+    <section id="contact-me">
+        <form name="contact" id="contact" metthod="POST" data-netlify="true">
+            <h1>Contact Me</h1>
+            <section>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required/>
+            </section>
+            <section>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" required/>
+            </section>
+            <section>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            </section>
+            <button type="submit"><strong>Send</strong></button>
+        </form>
+    </section>
+    <footer>
+        Made with ❤ by Gayatri ©2022
+    </footer>
+    <script src="main.js"></script>   
+    <script src="menu.js"></script>   
+</body>
+</html>
